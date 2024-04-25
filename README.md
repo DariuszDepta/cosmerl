@@ -1,5 +1,5 @@
 cosmerl 
 
-# Blockchain made for fun
+# Blockchain made for fun and learning
 
 
