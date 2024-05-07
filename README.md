@@ -1,5 +1,3 @@
-cosmerl 
-
 # Blockchain made for LEARNING and fun
 
 ![image](./image.jpg)
