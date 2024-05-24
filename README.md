@@ -30,7 +30,7 @@ and to master [Erlang/OTP](https://www.erlang.org/).
 1. [Install Erlang/OTP](https://www.erlang.org/downloads)
 2. [Install rebar3](https://www.rebar3.org/docs/getting-started)
 3. [Install Task](https://taskfile.dev/installation)
-4. [Clone **cosmerl** repository](https://github.com/DariuszDepta/cosmerl)
+4. [Clone locally the **cosmerl** repository](https://github.com/DariuszDepta/cosmerl)
 
 ## Getting started
 
