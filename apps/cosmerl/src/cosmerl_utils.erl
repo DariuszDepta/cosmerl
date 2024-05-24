@@ -1,5 +1,5 @@
 -module(cosmerl_utils).
--export([get_option/2, get_option/3, sha256/1]).
+-export([get_option/2, get_option/3]).
 
 %%%=============================================================================
 %%%  Public functions
@@ -25,12 +25,6 @@ get_option(Key, Options, Default) when is_atom(Key), is_list(Options) ->
     [] -> [Default];
     Other -> Other
   end.
-
-% Returns SHA256 digest for provided data.
-%
--spec sha256(Data :: iodata()) -> Digest :: binary().
-sha256(Data) ->
-  crypto:hash(sha256, Data).
 
 %%%============================================================================
 %%% Unit tests

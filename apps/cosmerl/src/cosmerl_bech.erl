@@ -35,7 +35,7 @@
 encode(Hrp, Data) when is_binary(Hrp), is_binary(Data) ->
   encode(Hrp, Data, [{char_case, lower}]).
 
-% Generates human readable address in Bech32 format, basing on provided
+% Generates human readable address in Bech32 or Bech32m format, basing on provided
 % prefix and data. All output characters are either lowercase or uppercase,
 % depending on provided options.
 %
@@ -61,7 +61,7 @@ encode(Hrp, Data, Options) when is_binary(Hrp), is_binary(Data), is_list(Options
     Other -> Other
   end.
 
-% Decodes the content from specified human readable address in Bech32 format.
+% Decodes the content from specified human readable address in Bech32 or Bech32m format.
 % Extracts the prefix and data, verifies the checksum.
 %
 -spec decode(Input :: binary()) -> {ok, Hrp :: binary(), Data :: binary()} | {error, Reason :: any()}.
