@@ -1,15 +1,11 @@
 {application, cosmerl,
- [{description, "An OTP application"},
-  {vsn, "0.1.0"},
+ [{description, "Blockchain for LEARNING and FUN"},
+  {vsn, "0.0.1"},
   {registered, []},
   {mod, {cosmerl_app, []}},
-  {applications,
-   [kernel,
-    stdlib
-   ]},
+  {applications, [kernel, stdlib]},
   {env,[]},
   {modules, []},
-
-  {licenses, ["Apache-2.0"]},
+  {licenses, ["Apache-2.0", "MIT"]},
   {links, []}
  ]}.
