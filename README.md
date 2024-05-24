@@ -34,7 +34,7 @@ and to master [Erlang/OTP](https://www.erlang.org/).
 
 ## Getting started
 
-Open the terminal and head to the directory with cloned
+Open the terminal and head to the directory with the cloned
 [**cosmerl**](https://github.com/DariuszDepta/cosmerl) repository.
 
 #### Build the blockchain
