@@ -5,7 +5,7 @@ silent: true
 tasks:
 
   build:
-    desc: Builds the release
+    desc: Builds the application release
     cmds:
       - cmd: rebar3 compile
 
@@ -16,7 +16,7 @@ tasks:
       - cmd: rm -rf _build
 
   run:
-    desc: Runs a shell with all applications
+    desc: Runs a shell with the application loaded
     cmds:
       - cmd: rebar3 shell
 
