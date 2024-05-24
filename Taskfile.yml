@@ -1,0 +1,26 @@
+version: '3'
+
+silent: true
+
+tasks:
+
+  build:
+    desc: Builds the release
+    cmds:
+      - cmd: rebar3 compile
+
+  clean:
+    desc: Removes all generated content
+    cmds:
+      - cmd: rebar3 clean
+      - cmd: rm -rf _build
+
+  run:
+    desc: Runs a shell with all applications
+    cmds:
+      - cmd: rebar3 shell
+
+  test:
+    desc: Runs all tests
+    cmds:
+      - cmd: rebar3 eunit
