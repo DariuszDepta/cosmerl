@@ -25,6 +25,42 @@ and to master [Erlang/OTP](https://www.erlang.org/).
 > To build a REAL blockchain use [Cosmos-SDK](https://github.com/cosmos/cosmos-sdk)
 > and [CosmWasm](https://github.com/CosmWasm).** 
 
+## Prerequisities
+
+1. [Install Erlang/OTP](https://www.erlang.org/downloads)
+2. [Install rebar3](https://www.rebar3.org/docs/getting-started)
+3. [Install Task](https://taskfile.dev/installation)
+4. [Clone **cosmerl** repository](https://github.com/DariuszDepta/cosmerl)
+
+## Getting started
+
+Open the terminal and head to the directory with cloned
+[**cosmerl**](https://github.com/DariuszDepta/cosmerl) repository.
+
+#### Build the blockchain
+
+```shell
+task build
+```
+
+#### Test the blockchain
+
+```shell
+task test
+```
+
+#### Run the blockchain in Erlang shell
+
+```shell
+task run
+```
+
+#### Clean all artefacts generated during compilation or tests
+
+```shell
+task clean
+```
+
 ## References
 
 - [REFERENCES.md](./REFERENCES.md)
